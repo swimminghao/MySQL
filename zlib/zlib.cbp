@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="zlib"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\cmake\os\;CMake Files\include\;CMake Files\sql\;CMake Files\sql\share\;CMake Files\zlib\;CMake Files\extra\;CMake Files\extra\yassl\;CMake Files\extra\yassl\taocrypt\;CMake Files\cmd-line-utils\;CMake Files\cmd-line-utils\libedit\;CMake Files\storage\;CMake Files\storage\archive\;CMake Files\storage\blackhole\;CMake Files\storage\csv\;CMake Files\storage\example\;CMake Files\storage\federated\;CMake Files\storage\heap\;CMake Files\storage\innobase\;CMake Files\storage\myisam\;CMake Files\storage\myisammrg\;CMake Files\storage\perfschema\;CMake Files\storage\perfschema\unittest\;CMake Files\plugin\;CMake Files\plugin\audit_null\;CMake Files\plugin\auth\;CMake Files\plugin\daemon_example\;CMake Files\plugin\fulltext\;CMake Files\plugin\semisync\;CMake Files\dbug\;CMake Files\strings\;CMake Files\vio\;CMake Files\regex\;CMake Files\mysys\;CMake Files\libmysql\;CMake Files\unittest\;CMake Files\unittest\mytap\;CMake Files\unittest\mysys\;CMake Files\unittest\my_decimal\;CMake Files\tests\;CMake Files\client\;CMake Files\libservices\;CMake Files\mysql-test\;CMake Files\mysql-test\lib\;CMake Files\mysql-test\lib\My\;CMake Files\mysql-test\lib\My\SafeProcess\;CMake Files\support-files\;CMake Files\scripts\;CMake Files\sql-bench\;CMake Files\man\;CMake Files\packaging\;CMake Files\packaging\rpm-oel\;CMake Files\packaging\rpm-sles\;CMake Files\packaging\rpm-docker\;CMake Files\packaging\WiX\;CMake Files\packaging\solaris\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/xh/workspaces/learning/mysql-5.5.62/zlib"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/xh/workspaces/learning/mysql-5.5.62/zlib/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/xh/workspaces/learning/mysql-5.5.62/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/xh/workspaces/learning/mysql-5.5.62/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/xh/workspaces/learning/mysql-5.5.62/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zlib">
+				<Option output="/Users/xh/workspaces/learning/mysql-5.5.62/zlib/libz.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xh/workspaces/learning/mysql-5.5.62/zlib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/xh/workspaces/learning/mysql-5.5.62/include"/>
+					<Add directory="/Users/xh/workspaces/learning/mysql-5.5.62/zlib"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/xh/workspaces/learning/mysql-5.5.62/zlib/Makefile&quot;  VERBOSE=1 zlib"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/xh/workspaces/learning/mysql-5.5.62/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/xh/workspaces/learning/mysql-5.5.62/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/xh/workspaces/learning/mysql-5.5.62/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zlib/fast">
+				<Option output="/Users/xh/workspaces/learning/mysql-5.5.62/zlib/libz.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xh/workspaces/learning/mysql-5.5.62/zlib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/xh/workspaces/learning/mysql-5.5.62/include"/>
+					<Add directory="/Users/xh/workspaces/learning/mysql-5.5.62/zlib"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/xh/workspaces/learning/mysql-5.5.62/zlib/Makefile&quot;  VERBOSE=1 zlib/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/xh/workspaces/learning/mysql-5.5.62/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/xh/workspaces/learning/mysql-5.5.62/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/xh/workspaces/learning/mysql-5.5.62/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/zlib/adler32.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/zlib/compress.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/zlib/crc32.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/zlib/crc32.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/zlib/deflate.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/zlib/deflate.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/zlib/gzclose.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/zlib/gzguts.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/zlib/gzlib.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/zlib/gzread.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/zlib/gzwrite.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/zlib/infback.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/zlib/inffast.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/zlib/inffast.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/zlib/inffixed.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/zlib/inflate.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/zlib/inflate.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/zlib/inftrees.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/zlib/inftrees.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/zlib/trees.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/zlib/trees.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/zlib/uncompr.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/zlib/zconf.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/zlib/zlib.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/zlib/zutil.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/zlib/zutil.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/VERSION">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/config.h.cmake">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/configure.cmake">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/info_macros.cmake">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/cmake/abi_check.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/cmake/bison.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/cmake/character_sets.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/cmake/cmake_parse_arguments.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/cmake/compile_flags.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/cmake/configurable_file_content.in">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/cmake/cpack_source_ignore_files.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/cmake/dtrace.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/cmake/info_macros.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/cmake/install_layout.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/cmake/install_macros.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/cmake/libutils.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/cmake/maintainer.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/cmake/make_dist.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/cmake/mysql_add_executable.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/cmake/mysql_version.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/cmake/package_name.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/cmake/plugin.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/cmake/readline.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/cmake/ssl.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/cmake/tags.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/cmake/zlib.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/cmake/os/Darwin.cmake">
+			<Option virtualFolder="CMake Files\cmake\os\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/include/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\include\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/include/mysql_version.h.in">
+			<Option virtualFolder="CMake Files\include\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/include/probes_mysql.d.base">
+			<Option virtualFolder="CMake Files\include\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/sql/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\sql\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/sql/sql_builtin.cc.in">
+			<Option virtualFolder="CMake Files\sql\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/sql/share/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\sql\share\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/zlib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\zlib\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/zlib/zconf.h.cmakein">
+			<Option virtualFolder="CMake Files\zlib\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/extra/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extra\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/extra/yassl/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extra\yassl\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/extra/yassl/taocrypt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extra\yassl\taocrypt\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/cmd-line-utils/libedit/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmd-line-utils\libedit\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/cmd-line-utils/libedit/makelist.sh">
+			<Option virtualFolder="CMake Files\cmd-line-utils\libedit\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/storage/archive/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\storage\archive\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/storage/blackhole/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\storage\blackhole\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/storage/csv/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\storage\csv\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/storage/example/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\storage\example\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/storage/federated/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\storage\federated\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/storage/heap/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\storage\heap\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/storage/innobase/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\storage\innobase\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/storage/myisam/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\storage\myisam\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/storage/myisammrg/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\storage\myisammrg\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/storage/perfschema/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\storage\perfschema\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/storage/perfschema/unittest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\storage\perfschema\unittest\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/plugin/audit_null/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugin\audit_null\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/plugin/auth/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugin\auth\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/plugin/daemon_example/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugin\daemon_example\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/plugin/fulltext/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugin\fulltext\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/plugin/semisync/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugin\semisync\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/dbug/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dbug\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/strings/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\strings\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/vio/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vio\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/regex/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\regex\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/mysys/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\mysys\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/libmysql/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libmysql\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/unittest/mytap/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\unittest\mytap\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/unittest/mysys/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\unittest\mysys\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/unittest/my_decimal/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\unittest\my_decimal\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/client/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\client\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/libservices/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libservices\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/mysql-test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\mysql-test\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/mysql-test/lib/My/SafeProcess/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\mysql-test\lib\My\SafeProcess\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/support-files/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\support-files\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/support-files/MySQL-shared-compat.spec.sh">
+			<Option virtualFolder="CMake Files\support-files\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/support-files/binary-configure.sh">
+			<Option virtualFolder="CMake Files\support-files\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/support-files/config.huge.ini.sh">
+			<Option virtualFolder="CMake Files\support-files\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/support-files/config.medium.ini.sh">
+			<Option virtualFolder="CMake Files\support-files\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/support-files/config.small.ini.sh">
+			<Option virtualFolder="CMake Files\support-files\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/support-files/my-huge.cnf.sh">
+			<Option virtualFolder="CMake Files\support-files\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/support-files/my-innodb-heavy-4G.cnf.sh">
+			<Option virtualFolder="CMake Files\support-files\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/support-files/my-large.cnf.sh">
+			<Option virtualFolder="CMake Files\support-files\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/support-files/my-medium.cnf.sh">
+			<Option virtualFolder="CMake Files\support-files\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/support-files/my-small.cnf.sh">
+			<Option virtualFolder="CMake Files\support-files\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/support-files/mysql-log-rotate.sh">
+			<Option virtualFolder="CMake Files\support-files\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/support-files/mysql.server.sh">
+			<Option virtualFolder="CMake Files\support-files\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/support-files/mysql.spec.sh">
+			<Option virtualFolder="CMake Files\support-files\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/support-files/mysqld_multi.server.sh">
+			<Option virtualFolder="CMake Files\support-files\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/support-files/ndb-config-2-node.ini.sh">
+			<Option virtualFolder="CMake Files\support-files\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/scripts/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\scripts\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/scripts/msql2mysql.sh">
+			<Option virtualFolder="CMake Files\scripts\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/scripts/mysql_config.pl.in">
+			<Option virtualFolder="CMake Files\scripts\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/scripts/mysql_config.sh">
+			<Option virtualFolder="CMake Files\scripts\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/scripts/mysql_convert_table_format.sh">
+			<Option virtualFolder="CMake Files\scripts\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/scripts/mysql_find_rows.sh">
+			<Option virtualFolder="CMake Files\scripts\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/scripts/mysql_fix_extensions.sh">
+			<Option virtualFolder="CMake Files\scripts\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/scripts/mysql_install_db.sh">
+			<Option virtualFolder="CMake Files\scripts\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/scripts/mysql_secure_installation.sh">
+			<Option virtualFolder="CMake Files\scripts\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/scripts/mysql_setpermission.sh">
+			<Option virtualFolder="CMake Files\scripts\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/scripts/mysql_zap.sh">
+			<Option virtualFolder="CMake Files\scripts\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/scripts/mysqlaccess.conf">
+			<Option virtualFolder="CMake Files\scripts\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/scripts/mysqlaccess.sh">
+			<Option virtualFolder="CMake Files\scripts\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/scripts/mysqlbug.sh">
+			<Option virtualFolder="CMake Files\scripts\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/scripts/mysqld_multi.sh">
+			<Option virtualFolder="CMake Files\scripts\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/scripts/mysqld_safe.sh">
+			<Option virtualFolder="CMake Files\scripts\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/scripts/mysqldumpslow.sh">
+			<Option virtualFolder="CMake Files\scripts\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/scripts/mysqlhotcopy.sh">
+			<Option virtualFolder="CMake Files\scripts\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/sql-bench/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\sql-bench\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/sql-bench/CTestTestfile.cmake">
+			<Option virtualFolder="CMake Files\sql-bench\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/sql-bench/README">
+			<Option virtualFolder="CMake Files\sql-bench\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/sql-bench/bench-count-distinct">
+			<Option virtualFolder="CMake Files\sql-bench\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/sql-bench/bench-count-distinct.sh">
+			<Option virtualFolder="CMake Files\sql-bench\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/sql-bench/bench-init.pl">
+			<Option virtualFolder="CMake Files\sql-bench\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/sql-bench/bench-init.pl.sh">
+			<Option virtualFolder="CMake Files\sql-bench\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/sql-bench/cmake_install.cmake">
+			<Option virtualFolder="CMake Files\sql-bench\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/sql-bench/compare-results">
+			<Option virtualFolder="CMake Files\sql-bench\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/sql-bench/compare-results.sh">
+			<Option virtualFolder="CMake Files\sql-bench\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/sql-bench/copy-db">
+			<Option virtualFolder="CMake Files\sql-bench\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/sql-bench/copy-db.sh">
+			<Option virtualFolder="CMake Files\sql-bench\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/sql-bench/crash-me">
+			<Option virtualFolder="CMake Files\sql-bench\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/sql-bench/crash-me.sh">
+			<Option virtualFolder="CMake Files\sql-bench\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/sql-bench/example.bat">
+			<Option virtualFolder="CMake Files\sql-bench\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/sql-bench/graph-compare-results">
+			<Option virtualFolder="CMake Files\sql-bench\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/sql-bench/graph-compare-results.sh">
+			<Option virtualFolder="CMake Files\sql-bench\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/sql-bench/innotest1">
+			<Option virtualFolder="CMake Files\sql-bench\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/sql-bench/innotest1.sh">
+			<Option virtualFolder="CMake Files\sql-bench\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/sql-bench/innotest1a">
+			<Option virtualFolder="CMake Files\sql-bench\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/sql-bench/innotest1a.sh">
+			<Option virtualFolder="CMake Files\sql-bench\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/sql-bench/innotest1b">
+			<Option virtualFolder="CMake Files\sql-bench\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/sql-bench/innotest1b.sh">
+			<Option virtualFolder="CMake Files\sql-bench\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/sql-bench/innotest2">
+			<Option virtualFolder="CMake Files\sql-bench\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/sql-bench/innotest2.sh">
+			<Option virtualFolder="CMake Files\sql-bench\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/sql-bench/innotest2a">
+			<Option virtualFolder="CMake Files\sql-bench\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/sql-bench/innotest2a.sh">
+			<Option virtualFolder="CMake Files\sql-bench\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/sql-bench/innotest2b">
+			<Option virtualFolder="CMake Files\sql-bench\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/sql-bench/innotest2b.sh">
+			<Option virtualFolder="CMake Files\sql-bench\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/sql-bench/pwd.bat">
+			<Option virtualFolder="CMake Files\sql-bench\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/sql-bench/run-all-tests">
+			<Option virtualFolder="CMake Files\sql-bench\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/sql-bench/run-all-tests.sh">
+			<Option virtualFolder="CMake Files\sql-bench\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/sql-bench/server-cfg">
+			<Option virtualFolder="CMake Files\sql-bench\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/sql-bench/server-cfg.sh">
+			<Option virtualFolder="CMake Files\sql-bench\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/sql-bench/test-ATIS">
+			<Option virtualFolder="CMake Files\sql-bench\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/sql-bench/test-ATIS.sh">
+			<Option virtualFolder="CMake Files\sql-bench\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/sql-bench/test-alter-table">
+			<Option virtualFolder="CMake Files\sql-bench\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/sql-bench/test-alter-table.sh">
+			<Option virtualFolder="CMake Files\sql-bench\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/sql-bench/test-big-tables">
+			<Option virtualFolder="CMake Files\sql-bench\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/sql-bench/test-big-tables.sh">
+			<Option virtualFolder="CMake Files\sql-bench\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/sql-bench/test-connect">
+			<Option virtualFolder="CMake Files\sql-bench\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/sql-bench/test-connect.sh">
+			<Option virtualFolder="CMake Files\sql-bench\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/sql-bench/test-create">
+			<Option virtualFolder="CMake Files\sql-bench\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/sql-bench/test-create.sh">
+			<Option virtualFolder="CMake Files\sql-bench\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/sql-bench/test-insert">
+			<Option virtualFolder="CMake Files\sql-bench\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/sql-bench/test-insert.sh">
+			<Option virtualFolder="CMake Files\sql-bench\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/sql-bench/test-select">
+			<Option virtualFolder="CMake Files\sql-bench\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/sql-bench/test-select.sh">
+			<Option virtualFolder="CMake Files\sql-bench\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/sql-bench/test-transactions">
+			<Option virtualFolder="CMake Files\sql-bench\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/sql-bench/test-transactions.sh">
+			<Option virtualFolder="CMake Files\sql-bench\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/sql-bench/test-wisconsin">
+			<Option virtualFolder="CMake Files\sql-bench\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/sql-bench/test-wisconsin.sh">
+			<Option virtualFolder="CMake Files\sql-bench\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/sql-bench/uname.bat">
+			<Option virtualFolder="CMake Files\sql-bench\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/man/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\man\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/packaging/rpm-oel/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\packaging\rpm-oel\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/packaging/rpm-oel/filter-provides.sh">
+			<Option virtualFolder="CMake Files\packaging\rpm-oel\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/packaging/rpm-oel/filter-requires.sh">
+			<Option virtualFolder="CMake Files\packaging\rpm-oel\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/packaging/rpm-oel/my.cnf">
+			<Option virtualFolder="CMake Files\packaging\rpm-oel\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/packaging/rpm-oel/my_config.h">
+			<Option virtualFolder="CMake Files\packaging\rpm-oel\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/packaging/rpm-oel/mysql-5.5-libmysqlclient-symbols.patch">
+			<Option virtualFolder="CMake Files\packaging\rpm-oel\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/packaging/rpm-oel/mysql-systemd-start">
+			<Option virtualFolder="CMake Files\packaging\rpm-oel\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/packaging/rpm-oel/mysql.conf">
+			<Option virtualFolder="CMake Files\packaging\rpm-oel\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/packaging/rpm-oel/mysql.init">
+			<Option virtualFolder="CMake Files\packaging\rpm-oel\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/packaging/rpm-oel/mysql.spec.in">
+			<Option virtualFolder="CMake Files\packaging\rpm-oel\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/packaging/rpm-oel/mysql_config.sh">
+			<Option virtualFolder="CMake Files\packaging\rpm-oel\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/packaging/rpm-oel/mysqld.service">
+			<Option virtualFolder="CMake Files\packaging\rpm-oel\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/packaging/rpm-sles/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\packaging\rpm-sles\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/packaging/rpm-sles/filter-provides.sh">
+			<Option virtualFolder="CMake Files\packaging\rpm-sles\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/packaging/rpm-sles/filter-requires.sh">
+			<Option virtualFolder="CMake Files\packaging\rpm-sles\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/packaging/rpm-sles/my.cnf">
+			<Option virtualFolder="CMake Files\packaging\rpm-sles\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/packaging/rpm-sles/my_config.h">
+			<Option virtualFolder="CMake Files\packaging\rpm-sles\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/packaging/rpm-sles/mysql.init">
+			<Option virtualFolder="CMake Files\packaging\rpm-sles\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/packaging/rpm-sles/mysql.spec.in">
+			<Option virtualFolder="CMake Files\packaging\rpm-sles\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/packaging/rpm-docker/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\packaging\rpm-docker\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/packaging/rpm-docker/my.cnf">
+			<Option virtualFolder="CMake Files\packaging\rpm-docker\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/packaging/rpm-docker/mysql.spec.in">
+			<Option virtualFolder="CMake Files\packaging\rpm-docker\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/packaging/WiX/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\packaging\WiX\"/>
+		</Unit>
+		<Unit filename="/Users/xh/workspaces/learning/mysql-5.5.62/packaging/solaris/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\packaging\solaris\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,1 @@
+cd /Users/xh/workspaces/learning/mysql-5.5.62 && '/Applications/CLion.app/Contents/bin/cmake/mac/bin/cpack' -G TGZ --config CPackConfig.cmake
